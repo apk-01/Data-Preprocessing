@@ -9,6 +9,22 @@ Data preprocessing techniques include:
 2. Data transformation: To transform data to the appropriate form.
 3. Data reduction: To reduce data storage costs.
 
+The codes are written on : google colaboratory (https://colab.research.google.com/notebooks/intro.ipynb)
+
+To execute the codes locally:
+
+1. Set up anaconda
+2. Add python 3.6+
+3. Remove google colab file uploading cell from the notebook
+4. Install the dependencies(imported libraries) before executing the program
+5. Execute the code with your own data/images
+
+To execute with google colab:
+
+1. Upload your own data/images while executing the upload cell
+2. Replace the file reading file names with your image file names
+3. Execute the remaining cells
+
 # Handling missing data
 
 This is a data cleaning technique. Missing data are often part of raw datasets. To handle such missing data, we can perform various techniques such as: dropping tuples having null data, replacing the data, and so on. We shall explore some of these methods.
